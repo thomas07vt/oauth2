@@ -1,11 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'rack', '~> 1.3.0'
 gem 'rake'
-gem 'rdoc'
-
-group :development do
-  gem 'pry'
-end
 
 group :test do
   gem 'addressable', '~> 2.3.8'
